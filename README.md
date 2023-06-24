@@ -65,7 +65,8 @@ The packages used are:
     - `$ npm install`
     - `$ npm run dev`
     - Do not change the port number. The default port should be `5173`
-
+4. JEST testing
+    - `$ npm test`
 Following the above steps should run the application smoothly.
 
 ### DEMO
