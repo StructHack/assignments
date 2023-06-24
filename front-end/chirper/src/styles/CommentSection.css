@@ -1,0 +1,27 @@
+.comment-container{
+    color: gray;
+    display: flex;
+    gap: 1.5em;
+    padding:3px 0px
+}
+
+.comment-container i{
+    margin-right: 10px;
+    padding:0.4em;
+    border-radius: 40%;
+}
+.comment-container span:hover{
+    cursor: pointer;
+    color:rgb(21, 153, 219);
+
+}
+.comment-container span:hover>i{
+    color:rgb(21, 153, 219);
+    background-color: rgba(21, 153, 219,0.5);
+}
+
+.fa-trash-can:hover{
+    color:rgb(209, 34, 34);
+    background-color: rgba(219, 21, 21, 0.5);
+    cursor: pointer;
+}

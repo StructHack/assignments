@@ -1,0 +1,44 @@
+.loginsignup-container h2{
+    margin-bottom: 2em;
+}
+.loginsignup-container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 60%;
+    flex-direction: row;
+    gap:1em;
+    margin:0 auto;
+    margin-top:2em;
+
+}
+
+.loginsignup-container div{
+    flex: 1;
+    padding:1em;
+    background-color: rgba(255,255,255,0.1);
+    border-radius: 10px;
+}
+
+
+.loginsignup-container div input{
+    padding:0.7em 1em;
+    width: 90%;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 1em;
+
+}
+.loginsignup-container label{
+    margin-left: 10px;
+    font-weight: 500;
+    font-size: 0.9em;
+}
+.loginsignup-container div input[type='submit']{
+    width: 100px;
+    display: block;
+    margin: 1em auto;
+    border: none;
+    background-color: seagreen;
+    border-radius: 5px;
+}

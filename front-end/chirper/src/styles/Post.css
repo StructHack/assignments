@@ -1,0 +1,54 @@
+.post-list{
+    list-style-type: none;
+}
+.post-individual{
+    padding:1em 1em 0.4em 1em;
+    border-bottom: 1px solid #333;
+    font-size: 0.85em;
+}
+.profile-name .handle{
+    font-weight: bold;
+}
+.profile-image{
+    font-size: 1.5em;
+    margin-right: 0.5em;
+    color:gold;
+}
+.post-name{
+    display: flex;
+    flex-direction: row;
+    gap:1em;
+}
+.post-individual textarea{
+    width: 100%;
+    height: 70px;
+    padding:1em;
+    resize: none;
+    border:none;
+    background-color: inherit;
+    font-family: inherit;
+    border-bottom: 1px solid #333;
+}
+
+.post-individual textarea:focus{
+    box-shadow: none;
+    outline: none;
+}
+
+.chirp{
+    text-align: right;
+    font-weight: bold;
+}
+
+.chirp button{
+    padding:5px 1.2em;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    background-color: seagreen;
+    transition: transform 0.5s;
+}
+.chirp button:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
